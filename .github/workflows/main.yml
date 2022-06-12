@@ -34,3 +34,5 @@ jobs:
       - name: Renewing Freenom domains
         run: |
           php run
+      - name: keep alive
+        uses: gautamkrishnar/keepalive-workflow@master # using the workflow with default settings
